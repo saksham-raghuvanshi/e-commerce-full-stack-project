@@ -4,5 +4,23 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    // ...
+  ],
 };
+/*
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+*/
