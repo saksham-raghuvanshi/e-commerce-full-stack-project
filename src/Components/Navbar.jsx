@@ -318,7 +318,7 @@ export default function Navbar() {
                   </div>
                 </div>
 
-                <div className="border-t border-gray-200 px-4 py-6">
+                {/* <div className="border-t border-gray-200 px-4 py-6">
                   <a href="#" className="-m-2 flex items-center p-2">
                     <img
                       src="https://tailwindui.com/img/flags/flag-canada.svg"
@@ -330,7 +330,7 @@ export default function Navbar() {
                     </span>
                     <span className="sr-only">, change currency</span>
                   </a>
-                </div>
+                </div> */}
               </Dialog.Panel>
             </Transition.Child>
           </div>
@@ -339,7 +339,7 @@ export default function Navbar() {
 
       <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
+          Get free delivery on orders over ₹100
         </p>
 
         <nav
@@ -511,7 +511,7 @@ export default function Navbar() {
                   </a>
                 </div>
 
-                <div className="hidden lg:ml-8 lg:flex">
+                {/* <div className="hidden lg:ml-8 lg:flex">
                   <a
                     href="#"
                     className="flex items-center text-gray-700 hover:text-gray-800"
@@ -521,10 +521,10 @@ export default function Navbar() {
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
+                    <span className="ml-3 block text-sm font-medium">RUP</span>
                     <span className="sr-only">, change currency</span>
                   </a>
-                </div>
+                </div> */}
 
                 {/* Search */}
                 <div className="flex lg:ml-6">
